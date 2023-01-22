@@ -1,0 +1,222 @@
+@media (max-width:1080px ) {
+
+}
+
+@media (max-width:768px) {
+    #header {
+        height: 70vh;
+    }
+    .navbar-left img {
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-right {
+        display: none;
+    }
+    #header a .menu {
+        position: absolute;
+        font-size: 18px;
+        right: 5%;
+        display: inline-block;
+    }
+    #header .banner-content {
+        padding: 20px 0;
+        margin: 20px;
+        border: 5px solid white;
+    }
+    #header .banner-content h6 {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    #header .banner-content h1 {
+        font-size: 54px;
+        font-weight: 700;
+    }
+    #header .banner-content h5 {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    #header .banner-content h5 span{
+        font-size: 14px;
+    }
+    #about .content {
+        margin: 40px;
+    }
+    #about .content h1 {
+        font-size: 160px;
+        font-weight: 900;
+        color: #ffffff;
+        font-family: var(--secondary-font);
+    }
+    #about .content h3 {
+      font-family: var(--heading-font);
+      font-size: 28px;
+    }
+    #about .content h3 span {
+        font-weight: 800;
+    } 
+    #about .content p {
+        font-size: 15px;
+    }
+
+    #card .full-card1 .card-content p {
+        padding-top: 30px;
+      font-size: 18px;
+    }
+    #about .full-card2 .card-content1 {
+
+        left: 0%;
+        right: 0%;
+    }
+    #card .full-card2 .card-content1 h1 {
+        font-size: 36px;
+
+    }
+    #card .full-card2 .card-content1 button {
+
+        font-size: 13px;
+        letter-spacing: 1px;
+
+        padding: 6px 22px;
+        margin-top: 8px;
+    }
+    #more .more-content {
+        margin-top: 50px;
+        margin-left: 40px;
+      }
+      #more .more-content h1{
+          font-family: var(--heading-font);
+          font-size: 28px;
+          margin-bottom: 16px;
+      }
+      #more .more-content h1 span {
+        font-weight: 800;
+      }
+      #more .paragraph  {
+        margin-top: 50px;
+        margin-left: 40px;
+      }
+      #Banner .banner-card2 .banner-content2 {
+
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+      }
+      #Banner .banner-card2 .banner-content2 h1 {
+        font-size: 38px;
+        font-family: var(--heading-font);
+        color: white;
+      }
+      #Banner .banner-card2 .banner-content2 h6 {
+        font-size: 14px;
+        word-spacing: 1.5px;
+        letter-spacing: 2px;
+        color: white;
+      }
+      #footer .content-footer h1 {
+        font-family: var(--heading-font);
+        font-size: 36px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 80px;
+      }
+      #footer .content-footer input {
+        outline: none;
+        border: 2px solid black;
+        padding: 8px;
+        width: 300px;
+        background: transparent;
+      } 
+      #footer .content-footer button {
+        border: 2px solid black;
+        background: black;
+        color: white;
+        padding: 8px;
+        width: 120px;
+      }
+}
+
+@media (max-width:450px) {
+    #header {
+        height: 70vh;
+    }
+    #header .banner-content {
+        padding: 10px 0;
+        margin: 20px;
+        border: 3px solid white;
+    }
+    #header .banner-content h6 {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+    #header .banner-content h1 {
+        font-size: 46px;
+        font-weight: 700;
+    }
+    #header .banner-content h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    #header .banner-content h5 span{
+        font-size: 12px;
+    }
+    #more .more-content {
+        margin-top: 40px;
+        margin-left: 30px;
+      }
+      #more .more-content h1{
+          font-family: var(--heading-font);
+          font-size: 24px;
+          margin-bottom: 12px;
+      }
+      #more .more-content h1 span {
+        font-weight: 800;
+      }
+      #more .paragraph  {
+        margin-top: 40px;
+        margin-left: 30px;
+      }
+      #more p {
+        font-size: 14px;
+      }
+      #Banner .banner-card2 .banner-content2 {
+
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        left: 18%;
+      }
+      #Banner .banner-card2 .banner-content2 h1 {
+        font-size: 36px;
+        font-family: var(--heading-font);
+        color: white;
+      }
+      #Banner .banner-card2 .banner-content2 h6 {
+        font-size: 12px;
+        word-spacing: 1.3px;
+        letter-spacing: 1.5px;
+        color: white;
+      }
+      #footer .content-footer h1 {
+        font-family: var(--heading-font);
+        font-size: 30px;
+        color: black;
+        font-weight: 900;
+        margin-bottom: 70px;
+      }
+      #footer .content-footer input {
+        outline: none;
+        border: 2px solid black;
+        padding: 7px;
+        width: 200px;
+        background: transparent;
+      } 
+      #footer .content-footer button {
+        border: 2px solid black;
+        background: black;
+        color: white;
+        padding: 7px;
+        width: 90px;
+      }
+}

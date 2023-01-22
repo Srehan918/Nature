@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Font Family */
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+  --heading-font: "Playfair Display", serif;
+
+  /* bg color */
+  --primary-color: #d8dfd0;
+  --secondary-color: #ffffff;
+}
+/* ------------header navbar----------------- */
+#header {
+  width: 100%;
+  height: 90vh;
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+#header .navbar-left {
+  width: 30%;
+}
+#header .navbar-right {
+  width: 70%;
+}
+#header .navbar-right .nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#header .navbar-right .nav-links li {
+  list-style: none;
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+}
+#header .navbar-right .nav-links li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+#header a .menu {
+  text-decoration: none;
+  color: var(--secondary-color);
+  display: none;
+}
+
+/* ------------------headercontent------------------- */
+#header .banner-content {
+  padding: 30px 0;
+  margin: 100px;
+  text-align: center;
+  border: 8px solid white;
+}
+#header .banner-content h6 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: normal;
+}
+#header .banner-content h1 {
+  font-size: 72px;
+  font-family: var(--heading-font);
+  color: white;
+  font-weight: 700;
+  margin: 20px 0;
+}
+#header .banner-content h5 {
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: white;
+  font-weight: normal;
+}
+#header .banner-content h5 span {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: 500;
+}
+/* ----------------about------------- */
+
+#about {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--primary-color);
+}
+#about .content {
+  margin: 70px;
+}
+#about .content h1 {
+  font-size: 180px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: var(--secondary-font);
+}
+#about .content h3 {
+  font-family: var(--heading-font);
+  font-size: 38px;
+}
+#about .content h3 span {
+  font-weight: 800;
+}
+#about .content p {
+  font-size: 16px;
+}
+
+/* -------------card--------------- */
+
+#card {
+  width: 100%;
+}
+#card .full-card1 {
+  background-image: url(images/card1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 80vh;
+  /* width: 50%; */
+}
+#card .full-card2 {
+  background-image: url(images/card2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  height: 80vh;
+  /* width: 50%; */
+}
+
+#card .full-card1 .card-content {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+#card .full-card1 .card-content p {
+    padding-top: 30px;
+  font-size: 20px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+#card .full-card2 .card-content1 {
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    right: 30%;
+}
+#card .full-card2 .card-content1 h1 {
+    font-family: var(--heading-font);
+    font-size: 48px;
+    font-weight: 400;
+}
+#card .full-card2 .card-content1 h1 span {
+    font-weight: 700;
+}
+#card .full-card2 .card-content1 button {
+    border: 2px solid rgb(95, 95, 95);
+    font-family: var(--primary-font);
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: grey;
+    outline: none;
+    padding: 10px 28px;
+    margin-top: 10px;
+}
+
+/* --------------------Gallery-------------------- */
+
+#gallery {
+  min-height: 90vh;
+   /* width: 100%;  */
+}
+#gallery .gallery {
+  margin-top: 30px;
+}
+#gallery .gallery .g-img-1 img {
+   width: 100%; 
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin-top: 15px;  
+}
+#gallery .gallery .g-img-1 img:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+
+/* ----------------More--------- */
+#more {
+  min-height: 34vh;
+  background-color: #d8dfd0;
+}
+#more .more-content {
+  margin-top: 70px;
+  margin-left: 70px;
+}
+#more .more-content h1{
+    font-family: var(--heading-font);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#more .more-content h1 span {
+  font-weight: 800;
+}
+#more .paragraph  {
+  margin-top: 70px;
+  margin-left: 70px;
+}
+/* ------------banner---------- */
+#Banner {
+  width: 100%;
+}
+#Banner .banner-card1{
+  background-image: url(images/c-banner1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 80vh;
+  /* width: 50%; */
+}
+#Banner .banner-card2{
+  background-image: url(images/c-banner2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  height: 80vh;
+  /* width: 50%; */
+}
+#Banner .banner-card2 .banner-content2 {
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+#Banner .banner-card2 .banner-content2 h1 {
+  font-size: 48px;
+  font-family: var(--heading-font);
+  color: white;
+}
+#Banner .banner-card2 .banner-content2 h6 {
+  font-size: 18px;
+  word-spacing: 1.5px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* --------------footer----------- */
+
+#footer {
+  background-image: url(images/footer.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  min-height: 40vh;
+  /* width: 50%; */
+}
+#footer .content-footer{
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+#footer .content-footer h1 {
+  font-family: var(--heading-font);
+  font-size: 46px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+#footer .content-footer input {
+  outline: none;
+  border: 3px solid black;
+  padding: 10px;
+  width: 350px;
+  background: transparent;
+} 
+#footer .content-footer button {
+  border: 3px solid black;
+  background: black;
+  color: white;
+  padding: 10px;
+  width: 150px;
+}
+#footer .content-footer button:hover {
+  background: transparent;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
